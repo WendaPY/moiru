@@ -1,0 +1,148 @@
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+    .nav-link {
+        padding: .5rem 1rem;
+    }
+
+    .nav-link img {
+        height: 31px;
+        width: 31px;
+    }
+
+    .container-intro {
+        margin-top: 106px; /* Header */
+        padding-bottom: 3rem;
+        text-align: left;
+    }
+
+    .intro-bienvenidos,
+    .intro-copy {
+        padding: 3rem 0;
+    }
+
+    .intro-bienvenidos img {
+        width: 85%;
+    }
+
+    .intro-copy {
+        font-size: 1.6em;
+    }
+
+    .container-video {
+        padding: 4rem 0;
+    }
+
+    .container-video iframe {
+        height: 480px;
+        width: 851px;
+    }
+
+    .container-trata {
+        padding-bottom: 3rem;
+    }
+
+    .container-trata h3 {
+        padding-left: 28%;
+        padding-right: 28%;
+    }
+
+    .trata-bloque {
+        border-bottom: none;
+        border-right: 1px solid #FAAC1A;
+    }
+    
+    .trata-bloque:first-child {
+        border-top: none;
+        border-left: 1px solid #FAAC1A;
+    }
+
+    .quedan {
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+
+    .quedan-bloque p {
+        font-size: 1.2em;
+    }
+
+    .quedan-globo {
+        font-size: 4rem;
+        height: 8rem;
+        margin: 0 1rem 1rem;
+        padding-top: 1.75rem;
+    }
+
+    .container-puedo {
+        padding-bottom: 3rem;
+    }
+
+    .puedo-bloque {
+        font-size: 1.2em;
+        padding-top: 1.5em;
+    }
+
+    .puedo-bloque p {
+        margin-bottom: 1.5em;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: left;
+    }
+
+    .premio-cual,
+    .premio-ganadores {
+        padding-bottom: 2rem;
+        padding-top: 3rem;
+    }
+
+    .premio-ganadores {
+        padding-left: 2rem;
+        text-align: left;
+    }
+
+    .premio-cual h3,
+    .premio-ganadores h3 {
+        font-size: 2.5em;
+    }
+
+    .premio-ganadores p {
+        font-size: 1.5em;
+        padding-right: 20%;
+    }
+
+    .container-cronograma {
+        padding: 3rem 0;
+    }
+
+    .cronograma-desc {
+        padding: 3em 4em;
+    }
+
+    .container-organizan {
+        padding: 3rem 0;
+    }
+
+    .footer-contacto,
+    .footer-botones .btn {
+        margin-bottom: 0;        
+    }
+
+    .footer-botones .btn {
+        display: inline-block;
+        margin-right: 1em;
+    }
+
+    .footer-botones .btn:last-child {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+}

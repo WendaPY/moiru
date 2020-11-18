@@ -1,0 +1,390 @@
+body {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.rojo {
+    color: #F04C3C;
+}
+
+.btn {
+    border-radius: 2em;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    padding: .375rem 1.25rem;
+}
+
+.btn-primary {
+    background-color: #2EB34B;
+    border-color: #2EB34B;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #F04C3C;
+    border-color: #F04C3C;
+}
+
+.header {
+    background-color: #fff;
+}
+
+.nav-link {
+    padding: .25rem 0;
+}
+
+.nav-link img {
+    height: 31px;
+    width: 31px;
+}
+
+.container-intro {
+    background-color: #FEF3DD;
+    color: #223063;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    margin-top: 133px; /* Header */
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.container-intro strong {
+    font-weight: 700;
+}
+
+.intro-bienvenidos {
+    padding: 2rem 0;
+}
+
+.intro-copy {
+    font-size: 1.3em;
+}
+
+.intro-bienvenidos img {
+    width: 70%;
+}
+
+.intro-mapa span {
+    border: 2px solid #FAAC1A;
+    border-radius: 1em;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1;
+    padding: .4em 1.5em;
+}
+
+.intro-mapa span strong {
+    font-weight: 600;
+}
+
+.intro-mapa span a {
+    color: #223063;
+}
+
+.intro-mapa span a:hover {
+    color: #F04C3C;
+}
+
+.container-video {
+    background: #FFF url('images/video-bg.png');
+    padding: 3rem 0;
+}
+
+.container-video iframe {
+    height: 195px;
+    width: 345px;
+}
+
+.container-trata {
+    background-color: #F04C3C;
+    color: #FFF;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.container-trata strong {
+    font-weight: 700;
+}
+
+.container-trata .btn-primary {
+    margin: -19px 0 2rem;
+}
+
+.container-trata .btn-primary:hover,
+.container-trata .btn-primary:focus,
+.container-trata .btn-primary:active,
+.container-trata .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #FAAC1A;
+    border-color: #FAAC1A;
+}
+
+.container-trata h3 {
+    color: #FAAC1A;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.trata-bloque {
+    border-bottom: 1px solid #FAAC1A;
+}
+
+.trata-bloque:first-child {
+    border-top: 1px solid #FAAC1A;
+}
+
+.trata-bloque img {
+    margin-top: 1rem;
+}
+
+.trata-bloque p {
+    padding: 1rem 10%;
+}
+
+.container-quedan {
+    /* background: #FAAC1A url('images/quedan-fondo.png'); */
+    background-color: #FAAC1A;
+    color: #223063;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+}
+
+.quedan {
+    background-color: #FAAC1A;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.container-quedan h4 {
+    border-bottom: 1px solid #FFF;
+    color: #F04C3C;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: .75rem;
+}
+
+.container-quedan h4:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.quedan-globo {
+    background: url('images/quedan-globo-fondo.png') center center no-repeat;
+    background-size: contain;
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 5rem;
+    padding-top: 1rem;
+}
+
+.container-puedo {
+    background-color: #FEF3DD;
+    color: #223063;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.container-puedo strong {
+    font-weight: 700;
+}
+
+.container-puedo .btn-primary {
+    margin: -19px 0 2rem;
+}
+
+.container-puedo .btn-primary:hover,
+.container-puedo .btn-primary:focus,
+.container-puedo .btn-primary:active,
+.container-puedo .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #F04C3C;
+    border-color: #F04C3C;
+}
+
+.container-puedo h3 {
+    color: #F04C3C;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.puedo-bloque {
+    border-bottom: 1px solid #FAAC1A;
+    padding-top: 2em;
+}
+
+.puedo-bloque p {
+    margin-bottom: 2em;
+}
+
+.puedo-bloque span {
+    color: #F04C3C;
+    font-weight: 700;
+}
+
+.container-premio {
+    background-color: #0D4E8C;
+    color: #FFF;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container-premio strong {
+    font-weight: 700;
+}
+
+.premio-cual,
+.premio-ganadores {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.premio-cual {
+    background: url('images/premio-cual-fondo.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.premio-cual h3 {
+    border-bottom: 2px solid #F04C3C;
+    display: inline-block;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    margin-bottom: 1em;
+}
+
+.premio-ganadores h3 {
+    color: #F04C3C;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
+}
+
+.container-cronograma {
+    background-color: #F04C3C;
+    color: #FFF;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    padding: 2rem 0;
+}
+
+.container-cronograma strong {
+    font-weight: 700;
+}
+
+.container-cronograma h3 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.cronograma-bloque h4 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.cronograma-desc {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 2em;
+    padding: 3em 3em;
+}
+
+.cronograma-fase-1 {
+    background-image: url('images/cronograma-fase-1-fondo.png');
+}
+
+.cronograma-fase-2 {
+    background-image: url('images/cronograma-fase-2-fondo.png');
+}
+
+.cronograma-fase-3 {
+    background-image: url('images/cronograma-fase-3-fondo.png');
+}
+
+.cronograma-mapeo {
+    background-image: url('images/cronograma-mapeo-fondo.png');
+}
+
+.container-organizan {
+    background-color: #FEF3DD;
+    color: #223063;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    padding: 2rem 0;
+}
+
+.container-organizan h4 {
+    border-bottom: 1px solid #223063;
+    padding-bottom: .5em;
+}
+
+.footer {
+    background-color: #FAAC1A;
+    color: #223063;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-contacto {
+    margin-bottom: 1em;
+}
+
+.footer-contacto a {
+    color: #223063;
+}
+
+.footer-botones .btn {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.footer-botones .btn:last-child {
+    margin-bottom: 0;
+}
+
+.footer-botones .btn-danger {
+    background-color: #F04C3C;
+    border-color: #F04C3C;
+}
+
+.footer-botones .btn-info {
+    background-color: #00A4D8;
+    border-color: #00A4D8;
+}
+
+/* Retina backgrounds */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+ only screen and (min-moz-device-pixel-ratio: 1.5),
+ only screen and (min-resolution: 240dpi) {
+    .container-video {
+        background-image: url('images/video-bg-retina.png');
+    }
+
+    .cronograma-fase-1 {
+        background-image: url('images/cronograma-fase-1-fondo-retina.png');
+    }
+    
+    .cronograma-fase-2 {
+        background-image: url('images/cronograma-fase-2-fondo-retina.png');
+    }
+    
+    .cronograma-fase-3 {
+        background-image: url('images/cronograma-fase-3-fondo-retina.png');
+    }
+    
+    .cronograma-mapeo {
+        background-image: url('images/cronograma-mapeo-fondo-retina.png');
+    }
+}
