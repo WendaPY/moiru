@@ -315,7 +315,8 @@ body {
     background-image: url('images/cronograma-mapeo-fondo.png');
 }
 
-.container-organizan {
+.container-organizan,
+.container-aliados {
     background-color: #FEF3DD;
     color: #223063;
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -323,7 +324,12 @@ body {
     padding: 2rem 0;
 }
 
-.container-organizan h4 {
+.container-aliados {
+    background-color: #FFF;
+}
+
+.container-organizan h4,
+.container-aliados h4 {
     border-bottom: 1px solid #223063;
     padding-bottom: .5em;
 }
