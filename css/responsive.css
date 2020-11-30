@@ -129,6 +129,10 @@
         padding: 3rem 0;
     }
 
+    .aliados-bloque {
+        margin-bottom: 2.5em;
+    }
+
     .footer-contacto,
     .footer-botones .btn {
         margin-bottom: 0;        
