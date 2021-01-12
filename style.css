@@ -101,50 +101,37 @@ body {
 }
 
 .container-trata {
-    background-color: #F04C3C;
+    background-color: #F9AC1C;
     color: #FFF;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 400;
-    padding-bottom: 2rem;
-}
-
-.container-trata strong {
-    font-weight: 700;
+    padding-top: 2rem;
 }
 
 .container-trata .btn-primary {
-    margin: -19px 0 2rem;
+    margin: 2rem 0 -19px;
+    position: relative;
+    z-index: 10;
 }
 
 .container-trata .btn-primary:hover,
 .container-trata .btn-primary:focus,
 .container-trata .btn-primary:active,
 .container-trata .btn-primary:not(:disabled):not(.disabled):active {
-    background-color: #FAAC1A;
-    border-color: #FAAC1A;
+    background-color: #F04C3C;
+    border-color: #F04C3C;
 }
 
 .container-trata h3 {
-    color: #FAAC1A;
+    color: #0D4E8C;
     font-family: 'Barlow', sans-serif;
+    font-size: 2rem;
     font-weight: 800;
     margin-bottom: 2rem;
 }
 
-.trata-bloque {
-    border-bottom: 1px solid #FAAC1A;
-}
-
-.trata-bloque:first-child {
-    border-top: 1px solid #FAAC1A;
-}
-
-.trata-bloque img {
-    margin-top: 1rem;
-}
-
-.trata-bloque p {
-    padding: 1rem 10%;
+.container-trata h3 a {
+    color: #F04C3C;
 }
 
 .container-quedan {
@@ -287,8 +274,14 @@ body {
 }
 
 .cronograma-bloque h4 {
+    color: #F9AC1C;
+    font-size: 1.2em;
     font-weight: 700;
     margin-bottom: 0;
+}
+
+.cronograma-bloque p {
+    font-size: 1.1em;
 }
 
 .cronograma-desc {
@@ -309,6 +302,10 @@ body {
 
 .cronograma-fase-3 {
     background-image: url('images/cronograma-fase-3-fondo.png');
+}
+
+.cronograma-fase-4 {
+    background-image: url('images/cronograma-fase-4-fondo.png');
 }
 
 .cronograma-mapeo {

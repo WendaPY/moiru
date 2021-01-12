@@ -45,12 +45,12 @@
     }
 
     .container-trata {
-        padding-bottom: 3rem;
+        padding-top: 3rem;
     }
 
     .container-trata h3 {
-        padding-left: 28%;
-        padding-right: 28%;
+        padding-left: 20%;
+        padding-right: 20%;
     }
 
     .trata-bloque {
@@ -98,7 +98,7 @@
     .premio-cual,
     .premio-ganadores {
         padding-bottom: 2rem;
-        padding-top: 3rem;
+        padding-top: 4rem;
     }
 
     .premio-ganadores {
